@@ -7,13 +7,13 @@ function DiscoverFunction() {
   return (
     <div>
       <div
-        className="h-[23em] lg:w-[62em] absolute top-[53em] md:mx-40 flex  gap-96"
+        className="h-[23em] lg:w-[62em] absolute top-[53em] lg:mx-40 flex  gap-96 md:mx-20 mx-2 "
         style={{
           background:
             "linear-gradient(180deg, rgba(161, 161, 161, 0), #fff 35%, #dedbcf)",
         }}
       >
-        <div className="flex md:gap-96 md:mx-20 md:flex-row flex-col mx-10">
+        <div className="flex lg:gap-96 lg:mx-20 lg:flex-row flex-col mx-10  ">
           <h1 className="font-bold md:text-5xl md:w-10 w-full  text-3xl mb-3 ">
             Discover the Features
           </h1>
