@@ -1,0 +1,32 @@
+.link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    .indicator{
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        left: -30px;
+    }
+}
+
+.svgCurve{
+
+    position: absolute;
+
+    top: 0;
+
+    left: -99px;
+
+    width: 100px;
+
+    height: 100%;
+
+    fill: rgb(41, 41, 41);
+
+    stroke: none;
+
+}

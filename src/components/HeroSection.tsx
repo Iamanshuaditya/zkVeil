@@ -1,12 +1,13 @@
-import bg from "../../public/imgs/background.svg";
-import group6 from "../../public/imgs/group-6.svg";
-
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 function HeroSection() {
   return (
     <div className="w-full h-full  ">
-      <img src={bg} alt="" className="lg:w-full lg:h-full w-[85em] h-[265em]" />
+      <img
+        src={"../../public/background.svg"}
+        alt=""
+        className="lg:w-full lg:h-full w-[85em] h-[265em]"
+      />
       <div className="absolute sm:top-52  top-60 flex md:mx-44   mx-10 sm:mx-28   ">
         <div className="flex flex-col gap-10 ">
           <button
@@ -43,7 +44,7 @@ function HeroSection() {
           </div>
         </div>
         <div className="hidden md:block w-full h-full  translate-y-[-4em] ">
-          <img src={group6} alt="logo" />
+          <img src={"../../public/group-6.svg"} alt="logo" />
         </div>
       </div>
     </div>

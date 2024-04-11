@@ -1,6 +1,6 @@
 import React from "react";
 import { navLinks, socials } from "../utils/constants";
-import logo from "../../public/imgs/logo.png";
+import logo from "../../public/logo.png";
 
 const Footer: React.FC = () => {
   return (

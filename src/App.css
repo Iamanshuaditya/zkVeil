@@ -42,7 +42,8 @@
 }
 
 
-@font-face {
-  font-family: "Aber-Mono-Bold";
-  src: url("./font/Aber-Mono-Bold.otf");
+ 
+
+.active {
+  background-color: rgba(34,34,34,0.8);
 }

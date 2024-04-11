@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const MainVisual:React.FC = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const MainVisual: React.FC = () => {
+  return "";
+};
 
 export default MainVisual;

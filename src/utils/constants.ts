@@ -1,7 +1,7 @@
-import gitbook from '../../public/imgs/gitbook.svg'
- import dexScreener from '../../public/imgs/dexScreener.svg'
-import twitter from '../../public/imgs/twiiter.svg'
-import telegram from '../../public/imgs/telegram.png'
+import gitbook from '../../public/gitbook.svg'
+ import dexScreener from '../../public/dexScreener.svg'
+import twitter from '../../public/twiiter.svg'
+import telegram from '../../public/telegram.png'
 
 export const navLinks = [
     {

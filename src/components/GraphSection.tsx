@@ -1,7 +1,7 @@
 const GraphSection = () => {
   return (
     <div className="flex items-center justify-between gap-x-8 w-585px bg-gradient-to-r from-gray-300 to-gray-100 rounded-br-xl rounded-tr-xl rounded-bl-xl p-8">
-      <button className="flex items-center gap-x-7xs">
+      <button type="button" className="flex items-center gap-x-7xs">
         <img className="h-22.6 w-22.6" alt="" src="/vector-9.svg" />
         <b className="text-xl font-aber-mono text-white min-w-36">ETH</b>
         <img className="h-3 w-6" alt="" src="/vector-2-3.svg" />

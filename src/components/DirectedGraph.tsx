@@ -1,12 +1,5 @@
 import { FunctionComponent } from "react";
-import vector7 from "../../public/imgs/vector-7.svg";
-import vector2 from "../../public/imgs/vector-2.svg";
-import vector6 from "../../public/imgs/vector-6.svg";
-import vector8 from "../../public/imgs/vector-8.svg";
-import vector14 from "../../public/imgs/vector-14.svg";
-import ouz from "../../public/imgs/ousz8j13-1@2x.png";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import schema2x from "../../public/imgs/schema@2x.png";
 
 const DirectedGraph: FunctionComponent = () => {
   return (
@@ -20,20 +13,20 @@ const DirectedGraph: FunctionComponent = () => {
                 <img
                   className="w-[1.5rem] relative h-[1.5rem]"
                   alt=""
-                  src={vector6}
+                  src={"../../public/vector-6.svg"}
                 />
                 <b className="relative">ETH</b>
                 <img
                   className="w-[0.375rem] relative h-[0.188rem]"
                   alt=""
-                  src={vector2}
+                  src={"../../public/vector-2.svg"}
                 />
               </div>
             </div>
             <img
               className="w-[2.125rem] relative h-[2.125rem]"
               alt=""
-              src={vector7}
+              src={"../../public/vector-7.svg"}
             />
             <div className="rounded-xl bg-gray-100 overflow-hidden flex flex-row items-center justify-start py-[1.313rem] px-[2.125rem] gap-[1.875rem] border-[1px] border-solid border-black">
               <b className="relative">To</b>
@@ -41,7 +34,7 @@ const DirectedGraph: FunctionComponent = () => {
                 <img
                   className="w-[1.413rem] relative h-[1.413rem]"
                   alt=""
-                  src={vector8}
+                  src={"../../public/vector-8.svg"}
                 />
                 <b className="relative">ETH</b>
                 <img
@@ -59,13 +52,13 @@ const DirectedGraph: FunctionComponent = () => {
               <img
                 className="w-[1.5rem] relative h-[1.5rem]"
                 alt=""
-                src={vector6}
+                src={"../../public/vector-6.svg"}
               />
               <b className="relative">ETH</b>
               <img
                 className="w-[0.375rem] relative h-[0.188rem]"
                 alt=""
-                src={vector7}
+                src={"../../public/vector-7.svg"}
               />
             </div>
             <b className="w-[6rem] absolute !m-[0] top-[2.75rem] left-[9.063rem] text-[2rem] inline-block text-white z-[3]">
@@ -91,7 +84,7 @@ const DirectedGraph: FunctionComponent = () => {
               <img
                 className="w-[1.413rem] relative h-[1.413rem]"
                 alt=""
-                src={vector8}
+                src={"../../public/vector-8.svg"}
               />
               <b className="relative">ETH</b>
               <MdOutlineArrowOutward />
@@ -106,7 +99,7 @@ const DirectedGraph: FunctionComponent = () => {
               <img
                 className="w-[1.125rem] relative rounded-2261xl h-[1.125rem] object-cover"
                 alt=""
-                src={ouz}
+                src={"../../public/ousz8j13-1@2x.png"}
               />
               <b className="relative">Across</b>
             </div>
@@ -120,7 +113,7 @@ const DirectedGraph: FunctionComponent = () => {
               <img
                 className="w-[1.413rem] relative h-[1.413rem]"
                 alt=""
-                src={vector8}
+                src={"../../public/vector-8.svg"}
               />
               <b className="relative">ETH</b>
               <MdOutlineArrowOutward />
@@ -135,7 +128,7 @@ const DirectedGraph: FunctionComponent = () => {
               <img
                 className="w-[1.125rem] relative rounded-2261xl h-[1.125rem] object-cover"
                 alt=""
-                src={ouz}
+                src={"../../public/ousz8j13-1@2x.png"}
               />
               <b className="relative">Across</b>
             </div>
@@ -149,7 +142,7 @@ const DirectedGraph: FunctionComponent = () => {
               <img
                 className="w-[1.413rem] relative h-[1.413rem]"
                 alt=""
-                src={vector8}
+                src={"../../public/vector-8.svg"}
               />
               <b className="relative">ETH</b>
               <MdOutlineArrowOutward />
@@ -164,7 +157,7 @@ const DirectedGraph: FunctionComponent = () => {
               <img
                 className="w-[1.125rem] relative rounded-2261xl h-[1.125rem] object-cover"
                 alt=""
-                src={ouz}
+                src={"../../public/ousz8j13-1@2x.png"}
               />
               <b className="relative">Across</b>
             </div>
@@ -191,57 +184,57 @@ const DirectedGraph: FunctionComponent = () => {
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
           <img
             className="w-[7.313rem] relative h-[2.313rem]"
             alt=""
-            src={vector14}
+            src={"./../public/vector-14.svg"}
           />
         </div>
       </div>
@@ -250,7 +243,7 @@ const DirectedGraph: FunctionComponent = () => {
         <img
           className="absolute top-[2.75rem] left-[calc(50%_-_526px)] w-[65.75rem] h-[43.938rem] object-cover"
           alt=""
-          src={schema2x}
+          src={"../../public/schema@2x.png"}
         />
       </div>
     </div>
@@ -258,16 +251,3 @@ const DirectedGraph: FunctionComponent = () => {
 };
 
 export default DirectedGraph;
-
-{
-  /* <div className=" text-black  flex flex-col items-center justify-center gap-[1.875rem]">
-<div className="">
-  {`Learn more `}
-  <span className="[text-decoration:underline]">here</span>
-</div>
-<div className="w-[35.25rem] relative text-[1rem] text-dimgray flex items-center">
-  zkVeil is revolutionizing blockchain interoperability by leveraging
-  cutting-edge zkRollup technology and LayerZero.
-</div>
-</div> */
-}

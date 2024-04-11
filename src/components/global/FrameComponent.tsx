@@ -28,7 +28,10 @@ const FrameComponent: FunctionComponent<FrameComponentProps> = ({
   return (
     <div className={`flex ${propFlex} ${propPadding}`} style={frameDivStyle}>
       <b className={`min-w-36 ${propMinWidth}`}>{from}</b>
-      <button className="flex items-center cursor-pointer border-0 py-1 px-6 gap-1 bg-gray-300 rounded-md overflow-x-auto">
+      <button
+        type="button"
+        className="flex items-center cursor-pointer border-0 py-1 px-6 gap-1 bg-gray-300 rounded-md overflow-x-auto"
+      >
         <img
           className="h-6 w-6 flex-shrink-0"
           alt=""

@@ -1,17 +1,12 @@
-import Mask from "../../public/imgs/mask-group.svg";
-import Vectr5 from "../../public/imgs/vector-5.svg";
-import eth from "../../public/imgs/vector-6.svg";
-import subtract from "../../public/imgs/subtract.svg";
-import group from "../../public/imgs/group.svg";
 function CrossChainSection() {
   return (
     <div className="absolute md:top-[76em] md:mx-52 top-[82em]">
       <div>
-        <img src={Mask} alt="mas" className="w-full" />
+        <img src={"../../public/mask-group.svg"} alt="mas" className="w-full" />
         <div className="flex flex-col w-1/2 gap-10 absolute left-[25%] top-56">
           <div className="flex">
             <h2 className="font-bold md:text-5xl">Bridge Assets cross-chain</h2>
-            <img src={Vectr5} alt="" />
+            <img src={"../../public/vector-5.svg"} alt="" />
           </div>
           <div>
             <p className="text-[#696969] text-base w-[90%]">
@@ -34,17 +29,17 @@ function CrossChainSection() {
         >
           <span className="flex ">
             {" "}
-            <img src={eth} alt="" />
+            <img src={"../../public/vector-6.svg"} alt="" />
             Ethereum
           </span>
           <span className="flex">
             {" "}
-            <img src={subtract} alt="" />
+            <img src={"../../public/subtract.svg"} alt="" />
             Base
           </span>
           <span className="flex">
             {" "}
-            <img src={group} alt="" />
+            <img src={"../../public/group.svg"} alt="" />
           </span>
         </div>
       </div>

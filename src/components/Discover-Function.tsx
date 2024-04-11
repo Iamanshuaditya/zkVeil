@@ -1,8 +1,3 @@
-import vectorsvg2 from "../../public/imgs/vector-2.svg";
-import vectorsvg3 from "../../public/imgs/vector-3.svg";
-import vectorsvg4 from "../../public/imgs/vector-4.svg";
-import group5 from "../../public/imgs/group-5.svg";
-
 function DiscoverFunction() {
   return (
     <div>
@@ -28,12 +23,12 @@ function DiscoverFunction() {
               safer, and more rewarding.
             </p>
             <div className="flex gap-4">
-              <img src={vectorsvg2} alt="vectorsvg2" />
-              <img src={vectorsvg3} alt="vectorsvg3" />
-              <img src={vectorsvg4} alt="vectorsvg4" />
+              <img src={"../../public/vector-2.svg"} alt="vectorsvg2" />
+              <img src={"../../public/vector-3.svg"} alt="vectorsvg3" />
+              <img src={"../../public/vector-4.svg"} alt="vectorsvg4" />
             </div>
             <div className="translate-x-[-1em]">
-              <img src={group5} alt="group5" />
+              <img src={"../../public/group-5.svg"} alt="group5" />
             </div>
           </div>
         </div>
